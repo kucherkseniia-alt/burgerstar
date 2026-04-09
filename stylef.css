@@ -1,0 +1,38 @@
+body {
+  background-color: #c4e184;
+  font-family: Arial, sans-serif;
+  font-size: 20px; /* збільшений текст */
+  text-align: center; /* вирівнювання по центру */
+}
+
+form {
+  display: inline-block; /* щоб форма була по центру */
+  text-align: left; /* вирівнювання тексту всередині */
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+input, textarea {
+  font-size: 18px; /* більший текст у полях */
+  padding: 8px;
+  margin: 10px 0;
+  width: 100%;
+}
+
+input[type="submit"], input[type="reset"], input[type="button"] {
+  font-size: 20px; /* великі кнопки */
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  background: olivedrab;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover {
+  background: darkgreen;

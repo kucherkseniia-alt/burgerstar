@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<HTML> 
+<HEAD>
+  <TITLE>Бронювання столика</TITLE>
+  <meta charset="UTF-8">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <link rel="stylesheet" href="stylef.css">
+</HEAD>
+<BODY>
+
+
+  <form action="thanks.html" method="post" name="form1">
+    <fieldset>
+      <legend><h2>Бронь столика</h2></legend>
+
+      Ім'я:<br>
+      <textarea cols="30" rows="2" name="name"></textarea><br>
+
+      Прізвище:<br>
+      <textarea cols="30" rows="2" name="surname"></textarea><br>
+
+      Номер телефону:<br>
+      <textarea cols="30" rows="2" name="phone"></textarea><br>
+
+      Дата та час бронювання:<br>
+      <input type="datetime-local" id="datetime" name="datetime" required><br><br>
+
+      <input type="submit" value="Відправка даних">
+      <input type="reset" value="Очистка полів">
+      <input type="button" value="Назад на головну" onclick="location.href='index.html'">
+    </fieldset>
+  </form>
+</BODY>
+</HTML>
